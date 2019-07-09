@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    /* background: #090c1d; */
+    background: #314f6f;
+}
+
+#canvas {
+    /* background: #414a4c; */
+    /* background: #003b59; */
+    background: #0a4a5a;
+    /* background: #ffffff00; */
+    position: absolute;
+}
+
+#changeValues {
+    bottom: 1rem;
+    color: #ffffff40;
+    font-family: "Avenir Next", "Avenir", sans-serif;
+    padding: 1%;
+    position: absolute;
+    z-index: 10;
+}
+
+#numstarsID {
+    width: 9rem;
+    box-sizing: border-box;
+    background-color: transparent;
+    border: 1px solid #ffffff40;
+    color: #ffffff40;
+}
+
+#edID {
+    width: 8rem;
+    box-sizing: border-box;
+    background-color: transparent;
+    border: 1px solid #ffffff40;
+    color: #ffffff40;
+}
+
+form {
+    padding: .5rem;
+    margin-left: 1rem;
+}
+
+input[type=text]:focus {
+    outline: 0;
+}
+
+::selection {
+    background: #E2E2E23F;
+    /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+    background: #E2E2E23F;
+    /* Gecko Browsers */
+}
